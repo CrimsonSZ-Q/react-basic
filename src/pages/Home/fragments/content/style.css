@@ -1,0 +1,12 @@
+.content-wrapper{
+   color: white;
+   text-align: left;
+   background-color: steelblue;
+   margin-bottom: 0;
+}
+
+.content-field{
+margin-top: 0px;
+
+   display: flex;
+}

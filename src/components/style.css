@@ -1,0 +1,52 @@
+.header-wrapper{
+    background-color: steelblue;
+    display: flex;
+}
+
+.header-wrapper > img {
+    height: 90px;
+  }
+
+  .header-title {
+    color: white;
+  }
+  
+
+.logo{
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.navigation {
+    display: flex;
+    margin-left: auto;
+    color: steelblue;
+  }
+  
+  .navigation > button {
+    color: white;
+    margin: 60px 0px 0px 0;
+    font-size: 20px;
+    height: 30px;
+    width: 100px;
+    background-color: steelblue;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.navigation > button:hover {
+    color: grey;
+    background-color: whitesmoke;
+}
+  
